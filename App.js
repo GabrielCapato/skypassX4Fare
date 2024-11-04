@@ -47,13 +47,13 @@ const App = () => {
             text={'Iniciar a SDK'}
             color={'blue'}
             onPress={async () => {
-              let response = await paymentModuleX4.initSDKX4Fare(
-                'd11475e4-d931-4254-8106-5e6022f6942b',
-                '0fa2f85c-6590-4f17-90d1-43af5a7874cf',
-                '352977103931047',
-              );
+              // let response = await paymentModuleX4.initSDKX4Fare(
+              //    {{UUID}},
+              //    {{KEY}},
+              //    {{IMEI}},
+              // );
               console.log('Iniciado');
-              console.log(response);
+              // console.log(response);
             }}
           />
           <ButtonTouchable
